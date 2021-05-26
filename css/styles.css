@@ -420,7 +420,7 @@ html {
 }
 
 .card > *:not(:last-child) {
-  margin-right: 0rem;
+  margin-right: 3rem;
 }
 
 .card__image {
