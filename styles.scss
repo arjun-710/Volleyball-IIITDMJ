@@ -323,12 +323,12 @@ html {
     background-color: #fe5430;
     &-image {
       background-image: linear-gradient(#fe5430, rgba(#fe5430, 0.5)),
-        url(../assets/image-1.jpg);
+        url(../assets/IMG_1640.webp);
     }
   }
   &__first:hover &__first-image {
-    transform: translateY(-50%);
-    background-image: url(../assets/image-1.jpg);
+    transform: translateY(-32%);
+    background-image: url(../assets/IMG_1640.webp);
   }
   &__first:hover &__first-content {
     opacity: 1;
@@ -345,12 +345,12 @@ html {
     position: relative;
     &-image {
       background-image: linear-gradient(#fe5430, rgba(#fe5430, 0.5)),
-        url(../assets/image-2.jpg);
+        url(../assets/IMG_1639.webp);
     }
   }
   &__second:hover &__second-image {
-    transform: translateY(-50%);
-    background-image: url(../assets/image-2.jpg);
+    transform: translateY(-35%);
+    background-image: url(../assets/IMG_1639.webp);
   }
   &__second:hover &__second-content {
     opacity: 1;
@@ -367,7 +367,7 @@ html {
     &-image {
       height: 100%;
       background-image: linear-gradient(#fe5430, rgba(#fe5430, 0.5)),
-        url(../assets/image-3.jpg);
+        url(../assets/members.webp);
       background-size: cover;
     }
     &-content {
@@ -379,8 +379,8 @@ html {
     }
   }
   &__third:hover &__third-image {
-    transform: translateY(-50%);
-    background-image: url(../assets/image-3.jpg);
+    transform: translateY(-35%);
+    background-image: url(../assets/members.webp);
   }
   &__third:hover &__third-content {
     opacity: 1;
