@@ -548,7 +548,11 @@ html {
     backface-visibility: hidden;
     &-image {
       background-image: linear-gradient(#fe5430, rgba(#fe5430, 0.5)),
+<<<<<<< HEAD
         url(../assets/coordinator.webp);
+=======
+        url(../assets/IMG_1640.webp);
+>>>>>>> 444ec370ff44a3a5c84809e5149b8a1ad254aaf5
     }
     // &-content {
     //   display: flex;
@@ -560,7 +564,11 @@ html {
   }
   &__first:hover &__first-image {
     transform: translateY(-32%);
+<<<<<<< HEAD
     background-image: url(../assets/coordinator.webp);
+=======
+    background-image: url(../assets/IMG_1640.webp);
+>>>>>>> 444ec370ff44a3a5c84809e5149b8a1ad254aaf5
   }
   &__first:hover &__first-content {
     opacity: 1;
@@ -581,6 +589,7 @@ html {
     position: relative;
     &-image {
       background-image: linear-gradient(#fe5430, rgba(#fe5430, 0.5)),
+<<<<<<< HEAD
         url(../assets/pawan.webp);
     }
     &-content {
@@ -590,6 +599,14 @@ html {
   &__second:hover &__second-image {
     transform: translateY(-32%);
     background-image: url(../assets/pawan.webp);
+=======
+        url(../assets/IMG_1639.webp);
+    }
+  }
+  &__second:hover &__second-image {
+    transform: translateY(-35%);
+    background-image: url(../assets/IMG_1639.webp);
+>>>>>>> 444ec370ff44a3a5c84809e5149b8a1ad254aaf5
   }
   &__second:hover &__second-content {
     opacity: 1;
@@ -636,7 +653,11 @@ html {
     }
   }
   &__third:hover &__third-image {
+<<<<<<< HEAD
     transform: translateY(-32%);
+=======
+    transform: translateY(-35%);
+>>>>>>> 444ec370ff44a3a5c84809e5149b8a1ad254aaf5
     background-image: url(../assets/members.webp);
   }
   &__third:hover &__third-content {
